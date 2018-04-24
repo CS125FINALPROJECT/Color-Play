@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-//suibiangaidiandongxi
+
 public class MainActivity extends AppCompatActivity {
     // Button navigator setUp. OnClick navigate to activity2.
     private Button button;

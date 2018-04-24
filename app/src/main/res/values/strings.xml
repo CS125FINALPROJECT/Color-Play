@@ -6,4 +6,5 @@
     <string name="Green">Green</string>
     <string name="Title">Color-Play</string>
     <string name="Generate">Generate</string>
+    <string name="title_activity_color_encoder">ColorEncoder</string>
 </resources>
