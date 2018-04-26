@@ -12,7 +12,7 @@ CS125 Final Project
 
 4.send input around activity
 
----Apr 26, Thu---Commit;"finishGenerator"--
+-----Apr 26, Thu------Commit:"finishGenerator"------
 
 1. Finish color generator by setting background color of textView
 
