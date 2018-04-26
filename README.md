@@ -1,5 +1,5 @@
 # Color-Play
-CS125 Final Project
+
 CS125 Final Project
 
 -----Apr 24, Mon-----Commit:"initial"-----
