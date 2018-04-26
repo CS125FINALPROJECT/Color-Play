@@ -1,4 +1,4 @@
-package com.example.tongyun.cs125_fp;
+package edu.illinois.cs.cs125.lab12;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

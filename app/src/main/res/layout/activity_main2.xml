@@ -19,7 +19,7 @@
         <TextView
             android:id="@+id/test"
             android:layout_width="wrap_content"
-            android:layout_height="281dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/holo_orange_light"
             android:padding="@android:dimen/app_icon_size"
@@ -27,37 +27,11 @@
             android:textAppearance="@android:style/TextAppearance.Holo.Widget.PopupMenu" />
 
         <TextView
-            android:id="@+id/RedOut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="42dp"
+            android:id="@+id/NewColor"
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/thumbnail_height"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_light"
-            android:text="TextView"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-        <TextView
-            android:id="@+id/GreenOut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="42dp"
-            android:layout_weight="1"
-            android:background="@android:color/holo_green_light"
-            android:text="TextView"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-        <TextView
-            android:id="@+id/BlueOut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="42dp"
-            android:layout_weight="1"
-            android:background="@android:color/holo_blue_dark"
-            android:text="TextView"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:text="@string/Title" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
