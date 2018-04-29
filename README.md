@@ -21,6 +21,8 @@ CS125 Final Project
 3. Finish basic navigator:
 
    Login page => Input page <=> Result page
+   
+---------------GITHUB INFO-----------------
 
 Clone single branch:
 
