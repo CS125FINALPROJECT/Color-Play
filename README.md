@@ -21,3 +21,13 @@ CS125 Final Project
 3. Finish basic navigator:
 
    Login page => Input page <=> Result page
+
+Clone single branch:
+
+Format:
+
+git clonr -b <BranchName> --single-branch <url>
+   
+In our case:
+
+git clone -b Tongyun --single-branch https://github.com/CS125FINALPROJECT/Color-Play.git
