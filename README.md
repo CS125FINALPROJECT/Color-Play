@@ -28,7 +28,7 @@ Clone single branch:
 
 Format:
 
-# git clonr -b <BranchName> --single-branch <url> #
+ git clonr -b "BranchName" --single-branch "url" 
    
 In our case:
 
