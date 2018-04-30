@@ -21,8 +21,17 @@ CS125 Final Project
 3. Finish basic navigator:
 
    Login page => Input page <=> Result page
-   
+   
+-----Apr 29, Sun-------Commit:"added a Palette"-----
+
+1. Added two new activities called "ColorEncoder", "ColorEncoder2", so now it is:
+
+   Login page => Input page <=> Result page => ColorEncoder <=> ColorEncoder2
+
+2. Created a color palette program by api, in which you can create color palette by choosing photos from gallery
+
 ---------------GITHUB INFO-----------------
+
 
 Clone single branch:
 
@@ -33,3 +42,4 @@ Format:
 In our case:
 
 git clone -b Tongyun --single-branch https://github.com/CS125FINALPROJECT/Color-Play.git
+git clone -b XinransPalette --single-branch https://github.com/CS125FINALPROJECT/Color-Play.git
