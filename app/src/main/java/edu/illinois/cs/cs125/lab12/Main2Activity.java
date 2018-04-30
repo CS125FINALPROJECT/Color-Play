@@ -1,17 +1,17 @@
 package edu.illinois.cs.cs125.lab12;
 
+import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextWatcher;
-import android.widget.EditText;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
-
-import edu.illinois.cs.cs125.lab12.MainActivity;
 
 public class Main2Activity extends AppCompatActivity {
     private int redOut, greenOut, blueOut;
     private TextView inputtext;
+    private Button moreFun;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,22 @@ public class Main2Activity extends AppCompatActivity {
 
         inputtext = (TextView) findViewById(R.id.NewColor);
         inputtext.setBackgroundColor(Color.rgb(redOut, greenOut, blueOut));
+
+        moreFun = (Button) findViewById(R.id.color_encoder);
+        moreFun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openColorEncoder();
+            }
+        });
     }
+
+    public void openColorEncoder() {
+        Intent colorEncoder = new Intent(this, ColorEncoder.class);
+        startActivity(colorEncoder);
+    }
+
+
 }
         //redOut = (TextView) findViewById(R.id.RedOut);
         //redOut.setText(getIntent().getStringExtra("redTr"));

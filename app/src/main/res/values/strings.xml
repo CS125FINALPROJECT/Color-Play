@@ -20,4 +20,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_color_encoder">ColorEncoder</string>
+    <string name="title_activity_color_encoder2">ColorEncoder2</string>
 </resources>
